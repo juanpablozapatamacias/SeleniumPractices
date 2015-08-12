@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59708" started-at="2015-08-09T05:49:00Z" finished-at="2015-08-09T05:50:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59708" started-at="2015-08-09T05:49:00Z" finished-at="2015-08-09T05:50:00Z">
+      <class name="com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox">
+        <test-method status="PASS" signature="openFirefoxBrowser()[pri:0, instance:com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox@f10a6f]" name="openFirefoxBrowser" is-config="true" duration-ms="26445" started-at="2015-08-09T00:49:01Z" finished-at="2015-08-09T00:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFirefoxBrowser -->
+        <test-method status="PASS" signature="doSearch()[pri:0, instance:com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox@f10a6f]" name="doSearch" duration-ms="10592" started-at="2015-08-09T00:49:27Z" finished-at="2015-08-09T00:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="openGoogle()[pri:0, instance:com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox@f10a6f]" name="openGoogle" duration-ms="3466" started-at="2015-08-09T00:49:38Z" finished-at="2015-08-09T00:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method status="PASS" signature="openImagesLink()[pri:0, instance:com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox@f10a6f]" name="openImagesLink" duration-ms="7133" started-at="2015-08-09T00:49:41Z" finished-at="2015-08-09T00:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openImagesLink -->
+        <test-method status="PASS" signature="selectAutoSuggestions()[pri:0, instance:com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox@f10a6f]" name="selectAutoSuggestions" duration-ms="9213" started-at="2015-08-09T00:49:48Z" finished-at="2015-08-09T00:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAutoSuggestions -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox@f10a6f]" name="closeBrowser" is-config="true" duration-ms="2729" started-at="2015-08-09T00:49:57Z" finished-at="2015-08-09T00:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.jpablo.selenium.TutorialSeleniumMavenTestNG.NavigateGoogleFirefox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
