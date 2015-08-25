@@ -6,6 +6,8 @@
 package com.jpablo.test;
 
 import java.util.List;
+import java.util.*;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -271,6 +273,54 @@ public class NavigateWikipedia {
     
     public int indice(int tam){
         return ((int)(Math.random()*tam + 1));
+    }
+
+    public void doSearchWordsMap(List<String> wordList) 
+            throws InterruptedException{
+        
+        Map<String,String> map =  new HashMap<String,String>();
+                
+        driver = new FirefoxDriver();
+        driver.get("http://www.wikipedia.org");
+        link = driver.findElement(By.linkText("English"));
+        link.click();
+        
+        for(String cad : wordList){
+            map.put(cad, cad.toString());
+            System.out.println(map.get(cad));
+            
+            Thread.sleep(8000);
+        
+            searchBox = driver.findElement(By.id("searchInput"));
+            searchBox.sendKeys(map.get(cad));
+            searchBox.submit();
+        }
+        
+        Thread.sleep(5000);
+        driver.quit();
+    }
+    
+    public void doSearchWordsMap2(Map<String,String> map) 
+            throws InterruptedException{
+        Iterator<String> it = map.keySet().iterator();
+        
+        driver = new FirefoxDriver();
+        driver.get("http://www.wikipedia.org");
+        link = driver.findElement(By.linkText("English"));
+        link.click();
+        
+        while(it.hasNext()){
+            String key = it.next();
+            System.out.println(map.get(key));
+            Thread.sleep(8000);
+        
+            searchBox = driver.findElement(By.id("searchInput"));
+            searchBox.sendKeys(map.get(key));
+            searchBox.submit();
+        }
+        
+        Thread.sleep(5000);
+        driver.quit();
     }
     /*public static void main(String[] args) throws InterruptedException{
         NavigateWikipedia nw = new NavigateWikipedia();

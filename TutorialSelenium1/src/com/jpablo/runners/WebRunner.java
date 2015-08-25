@@ -6,6 +6,7 @@
 package com.jpablo.runners;
 
 import java.io.*;
+import java.util.*;
 
 import com.jpablo.test.NavigateWikipedia;
 import com.jpablo.keys.PalabrasBusqueda;
@@ -15,6 +16,9 @@ import com.jpablo.keys.PalabrasBusqueda;
  * @author JP
  */
 public class WebRunner {
+    
+    public List<String> list = new ArrayList<String>();
+    public Map<String,String> mapa = new HashMap<>();
     
     public void searchOnWikipedia(){
         try{
@@ -33,7 +37,8 @@ public class WebRunner {
                     System.out.println("5. Abrir Wikipedia en Chrome");
                     System.out.println("6. Uso Autosuggest en Firefox");
                     System.out.println("7. Uso Autosuggest en Firefox de un elemento");
-                    System.out.println("8. Salir");
+                    System.out.println("8. Obtener palabras de un archivo");
+                    System.out.println("9. Salir");
 
                     switch(Integer.parseInt(tecla.readLine())){
                         case 1:System.out.println("Busqueda de una palabra en Wikipedia");
@@ -75,16 +80,53 @@ public class WebRunner {
                             nw.doSearchAutoSuggestIndex(pl1.getWord());
                             break;
                         case 8:
+                            list = null;
+                            File dir = new File(".");
+                            File fin = new File(dir.getCanonicalPath() 
+                                + File.separator + "wordsForWikipedia.txt");
+                            list = readLinesFile(fin);
+                            mapa = mapWords(list);
+                            //nw.doSearchWordsMap(list);
+                            nw.doSearchWordsMap2(mapa);
+                            break;
+                        case 9:
                             System.out.println("Adios!!!");
                             break;
                         default:
                             break;
                     }
-                }while(Integer.parseInt(tecla.readLine())!=8);
+                }while(Integer.parseInt(tecla.readLine())!=9);
             }
             catch(IOException ioe){}
         }
         catch(InterruptedException ie){}
+    }
+    
+    public ArrayList<String> readLinesFile(File f){
+        ArrayList<String> readLine =  new ArrayList<String>();
+        String line = null;
+        
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(f));
+            while((line = br.readLine()) != null){
+                System.out.println("Adding the string content per line");
+                readLine.add(line);
+            }
+        }
+        catch(IOException ioe){
+            ioe.printStackTrace();
+        }
+        
+        return readLine;
+    }
+    
+    public Map<String,String> mapWords(List<String> arr){
+        Map<String,String> mapiux = new HashMap<>();
+        mapiux.clear();
+        for(String ele : arr){
+            mapiux.put(ele, ele.toString());
+        }
+        return mapiux;
     }
     
     public static void main(String[] args){
