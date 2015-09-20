@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-NavigateWikipediaSuite">
+              <span class="suite-name border-passed">NavigateWikipediaSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-NavigateWikipediaSuite">
+                    <span>C:\Users\JP\Documents\JP\Programacion\Java\Eclipse\NewProjectSeleniumMaven\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-NavigateWikipediaSuite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-NavigateWikipediaSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-NavigateWikipediaSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-NavigateWikipediaSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-NavigateWikipediaSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-NavigateWikipediaSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NavigateWikipediaSuite" class="hide-methods passed suite-NavigateWikipediaSuite"> (hide)</a> <!-- hide-methods passed suite-NavigateWikipediaSuite -->
+                      <a href="#" panel-name="suite-NavigateWikipediaSuite" class="show-methods passed suite-NavigateWikipediaSuite"> (show)</a> <!-- show-methods passed suite-NavigateWikipediaSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-NavigateWikipediaSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="clickWikiMainImage">clickWikiMainImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="doSearchAutoSuggest">doSearchAutoSuggest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="doSearchAutoSuggestIndex">doSearchAutoSuggestIndex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile" hash-for-method="getWordsFromTXT">getWordsFromTXT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia" hash-for-method="openMainWikiDE">openMainWikiDE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia" hash-for-method="openMainWikiEN">openMainWikiEN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia" hash-for-method="openMainWikiES">openMainWikiES</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="openWikipediaEn">openWikipediaEn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="openWikipediaEs">openWikipediaEs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="searchMainWikiPage">searchMainWikiPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="searchWikipediaEN">searchWikipediaEN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NavigateWikipediaSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NavigateWikipediaSuite" class="panel NavigateWikipediaSuite">
+          <div class="suite-NavigateWikipediaSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMainWikiDE">
+                  </a> <!-- openMainWikiDE -->
+                  <span class="method-name">openMainWikiDE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMainWikiEN">
+                  </a> <!-- openMainWikiEN -->
+                  <span class="method-name">openMainWikiEN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMainWikiES">
+                  </a> <!-- openMainWikiES -->
+                  <span class="method-name">openMainWikiES</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NavigateWikipediaSuite-class-passed -->
+          <div class="suite-NavigateWikipediaSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickWikiMainImage">
+                  </a> <!-- clickWikiMainImage -->
+                  <span class="method-name">clickWikiMainImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchAutoSuggest">
+                  </a> <!-- doSearchAutoSuggest -->
+                  <span class="method-name">doSearchAutoSuggest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSearchAutoSuggestIndex">
+                  </a> <!-- doSearchAutoSuggestIndex -->
+                  <span class="method-name">doSearchAutoSuggestIndex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openWikipediaEn">
+                  </a> <!-- openWikipediaEn -->
+                  <span class="method-name">openWikipediaEn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openWikipediaEs">
+                  </a> <!-- openWikipediaEs -->
+                  <span class="method-name">openWikipediaEs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchMainWikiPage">
+                  </a> <!-- searchMainWikiPage -->
+                  <span class="method-name">searchMainWikiPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchWikipediaEN">
+                  </a> <!-- searchWikipediaEN -->
+                  <span class="method-name">searchWikipediaEN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NavigateWikipediaSuite-class-passed -->
+          <div class="suite-NavigateWikipediaSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWordsFromTXT">
+                  </a> <!-- getWordsFromTXT -->
+                  <span class="method-name">getWordsFromTXT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NavigateWikipediaSuite-class-passed -->
+        </div> <!-- panel NavigateWikipediaSuite -->
+        <div panel-name="test-xml-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\JP\Documents\JP\Programacion\Java\Eclipse\NewProjectSeleniumMaven\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;NavigateWikipediaSuite&quot;&gt;
+  &lt;test name=&quot;NavigateWikipediaTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NavigateWikipediaTest --&gt;
+  &lt;test name=&quot;WordsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WordsTest --&gt;
+  &lt;test name=&quot;MainWikipediaTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MainWikipediaTest --&gt;
+&lt;/suite&gt; &lt;!-- NavigateWikipediaSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NavigateWikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NavigateWikipediaTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WordsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MainWikipediaTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NavigateWikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NavigateWikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NavigateWikipediaSuite');
+function tableData_NavigateWikipediaSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getWordsFromTXT')
+data.setCell(0, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile')
+data.setCell(0, 3, 194245);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchWikipediaEN')
+data.setCell(1, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(1, 3, 69862);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doSearchAutoSuggest')
+data.setCell(2, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(2, 3, 58899);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doSearchAutoSuggestIndex')
+data.setCell(3, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(3, 3, 46102);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchMainWikiPage')
+data.setCell(4, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(4, 3, 25134);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'openMainWikiES')
+data.setCell(5, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
+data.setCell(5, 3, 23268);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'openMainWikiEN')
+data.setCell(6, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
+data.setCell(6, 3, 20615);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickWikiMainImage')
+data.setCell(7, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(7, 3, 20059);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'openMainWikiDE')
+data.setCell(8, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
+data.setCell(8, 3, 18182);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'openWikipediaEs')
+data.setCell(9, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(9, 3, 16440);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'openWikipediaEn')
+data.setCell(10, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(10, 3, 11243);
+window.suiteTableData['NavigateWikipediaSuite']= { tableData: data, tableDiv: 'times-div-NavigateWikipediaSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-NavigateWikipediaSuite">
+              </div> <!-- times-div-NavigateWikipediaSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NavigateWikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NavigateWikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickWikiMainImage</span>
+                <span class="method-start">27675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSearchAutoSuggest</span>
+                <span class="method-start">47738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSearchAutoSuggestIndex</span>
+                <span class="method-start">106637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openWikipediaEn</span>
+                <span class="method-start">152739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openWikipediaEs</span>
+                <span class="method-start">163982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchMainWikiPage</span>
+                <span class="method-start">180424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchWikipediaEN</span>
+                <span class="method-start">205558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">275420 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">278301 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">getWordsFromTXT</span>
+                <span class="method-start">302041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">496286 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">498596 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openMainWikiDE</span>
+                <span class="method-start">515045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openMainWikiEN</span>
+                <span class="method-start">533227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openMainWikiES</span>
+                <span class="method-start">553844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">577112 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

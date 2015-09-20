@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [NavigateWikipediaSuite]">
+  <test name="MainWikipediaTest(failed)">
+    <classes>
+      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia">
+        <methods>
+          <include name="openMainWikiEN"/>
+          <include name="openMainWikiES"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia -->
+      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia -->
+      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile -->
+    </classes>
+  </test> <!-- MainWikipediaTest(failed) -->
+</suite> <!-- Failed suite [NavigateWikipediaSuite] -->
