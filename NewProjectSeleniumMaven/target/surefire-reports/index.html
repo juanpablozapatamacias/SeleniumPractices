@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-NavigateWikipediaSuite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">12 methods,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -152,6 +152,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia" hash-for-method="searchWikipediaEN">searchWikipediaEN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NavigateWikipediaSuite" title="com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia" hash-for-method="searchWikipediaES">searchWikipediaES</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-NavigateWikipediaSuite -->
@@ -267,6 +272,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-NavigateWikipediaSuite-class-passed -->
+          <div class="suite-NavigateWikipediaSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchWikipediaES">
+                  </a> <!-- searchWikipediaES -->
+                  <span class="method-name">searchWikipediaES</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NavigateWikipediaSuite-class-passed -->
         </div> <!-- panel NavigateWikipediaSuite -->
         <div panel-name="test-xml-NavigateWikipediaSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -292,6 +312,11 @@
       &lt;class name=&quot;com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MainWikipediaTest --&gt;
+  &lt;test name=&quot;SearchWikipediaTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchWikipediaTest --&gt;
 &lt;/suite&gt; &lt;!-- NavigateWikipediaSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -310,6 +335,9 @@
               </li>
               <li>
                 <span class="test-name">MainWikipediaTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchWikipediaTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -335,51 +363,55 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getWordsFromTXT')
 data.setCell(0, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile')
-data.setCell(0, 3, 194245);
+data.setCell(0, 3, 174176);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchWikipediaEN')
 data.setCell(1, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(1, 3, 69862);
+data.setCell(1, 3, 70367);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'doSearchAutoSuggest')
 data.setCell(2, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(2, 3, 58899);
+data.setCell(2, 3, 57570);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'doSearchAutoSuggestIndex')
-data.setCell(3, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(3, 3, 46102);
+data.setCell(3, 1, 'openMainWikiEN')
+data.setCell(3, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
+data.setCell(3, 3, 38943);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchMainWikiPage')
-data.setCell(4, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(4, 3, 25134);
+data.setCell(4, 1, 'openMainWikiDE')
+data.setCell(4, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
+data.setCell(4, 3, 35585);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'openMainWikiES')
-data.setCell(5, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
-data.setCell(5, 3, 23268);
+data.setCell(5, 1, 'searchWikipediaES')
+data.setCell(5, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia')
+data.setCell(5, 3, 35576);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'openMainWikiEN')
+data.setCell(6, 1, 'openMainWikiES')
 data.setCell(6, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
-data.setCell(6, 3, 20615);
+data.setCell(6, 3, 34297);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'clickWikiMainImage')
+data.setCell(7, 1, 'searchMainWikiPage')
 data.setCell(7, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(7, 3, 20059);
+data.setCell(7, 3, 25263);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'openMainWikiDE')
-data.setCell(8, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia')
-data.setCell(8, 3, 18182);
+data.setCell(8, 1, 'doSearchAutoSuggestIndex')
+data.setCell(8, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(8, 3, 22332);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'openWikipediaEs')
+data.setCell(9, 1, 'clickWikiMainImage')
 data.setCell(9, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(9, 3, 16440);
+data.setCell(9, 3, 17026);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'openWikipediaEn')
+data.setCell(10, 1, 'openWikipediaEs')
 data.setCell(10, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
-data.setCell(10, 3, 11243);
+data.setCell(10, 3, 14141);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'openWikipediaEn')
+data.setCell(11, 2, 'com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia')
+data.setCell(11, 3, 12391);
 window.suiteTableData['NavigateWikipediaSuite']= { tableData: data, tableDiv: 'times-div-NavigateWikipediaSuite'}
 return data;
 }
@@ -417,73 +449,88 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">clickWikiMainImage</span>
-                <span class="method-start">27675 ms</span>
+                <span class="method-start">27566 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doSearchAutoSuggest</span>
-                <span class="method-start">47738 ms</span>
+                <span class="method-start">44599 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doSearchAutoSuggestIndex</span>
-                <span class="method-start">106637 ms</span>
+                <span class="method-start">102171 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openWikipediaEn</span>
-                <span class="method-start">152739 ms</span>
+                <span class="method-start">124506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openWikipediaEs</span>
-                <span class="method-start">163982 ms</span>
+                <span class="method-start">136899 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchMainWikiPage</span>
-                <span class="method-start">180424 ms</span>
+                <span class="method-start">151042 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchWikipediaEN</span>
-                <span class="method-start">205558 ms</span>
+                <span class="method-start">176306 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">275420 ms</span>
+                <span class="method-start">246682 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">278301 ms</span>
+                <span class="method-start">249465 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">getWordsFromTXT</span>
-                <span class="method-start">302041 ms</span>
+                <span class="method-start">288325 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">496286 ms</span>
+                <span class="method-start">462502 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">498596 ms</span>
+                <span class="method-start">464318 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">openMainWikiDE</span>
-                <span class="method-start">515045 ms</span>
+                <span class="method-start">481386 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openMainWikiEN</span>
-                <span class="method-start">533227 ms</span>
+                <span class="method-start">516972 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openMainWikiES</span>
-                <span class="method-start">553844 ms</span>
+                <span class="method-start">555917 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">577112 ms</span>
+                <span class="method-start">590215 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">591489 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">searchWikipediaES</span>
+                <span class="method-start">608341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">643918 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

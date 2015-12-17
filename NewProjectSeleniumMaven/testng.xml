@@ -16,4 +16,9 @@
   		<class name="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia" />
   	</classes>
   </test>
+  <test name="SearchWikipediaTest">
+  	<classes>
+  		<class name="com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia" />
+  	</classes>
+  </test>
 </suite> <!-- Suite -->

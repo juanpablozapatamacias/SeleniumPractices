@@ -3,25 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia">
+      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo">
         <methods>
+          <include name="autheticate"/>
           <include name="beforeTest"/>
-          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia -->
-      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile -->
-      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia">
-        <methods>
-          <include name="doSearchAutoSuggestIndex"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia -->
+      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -234,5 +234,4 @@ public class NavigateWikipedia{
 	  public void afterTest() {
 		  driver.quit();
 	  }
-	  
 }

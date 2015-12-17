@@ -1,89 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="NavigateWikipediaSuite" duration-ms="578718" started-at="2015-09-19T17:15:58Z" finished-at="2015-09-19T17:25:37Z">
+  <suite name="NavigateWikipediaSuite" duration-ms="644929" started-at="2015-09-22T03:16:31Z" finished-at="2015-09-22T03:27:16Z">
     <groups>
     </groups>
-    <test name="NavigateWikipediaTest" duration-ms="278086" started-at="2015-09-19T17:15:58Z" finished-at="2015-09-19T17:20:36Z">
+    <test name="NavigateWikipediaTest" duration-ms="249391" started-at="2015-09-22T03:16:31Z" finished-at="2015-09-22T03:20:41Z">
       <class name="com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="beforeTest" is-config="true" duration-ms="27641" started-at="2015-09-19T12:15:58Z" finished-at="2015-09-19T12:16:26Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="beforeTest" is-config="true" duration-ms="27512" started-at="2015-09-21T22:16:32Z" finished-at="2015-09-21T22:16:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="clickWikiMainImage()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="clickWikiMainImage" duration-ms="20059" started-at="2015-09-19T12:16:26Z" finished-at="2015-09-19T12:16:46Z">
+        <test-method status="PASS" signature="clickWikiMainImage()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="clickWikiMainImage" duration-ms="17026" started-at="2015-09-21T22:16:59Z" finished-at="2015-09-21T22:17:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickWikiMainImage -->
-        <test-method status="PASS" signature="doSearchAutoSuggest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="doSearchAutoSuggest" duration-ms="58899" started-at="2015-09-19T12:16:46Z" finished-at="2015-09-19T12:17:45Z">
+        <test-method status="PASS" signature="doSearchAutoSuggest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="doSearchAutoSuggest" duration-ms="57570" started-at="2015-09-21T22:17:16Z" finished-at="2015-09-21T22:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearchAutoSuggest -->
-        <test-method status="PASS" signature="doSearchAutoSuggestIndex()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="doSearchAutoSuggestIndex" duration-ms="46102" started-at="2015-09-19T12:17:45Z" finished-at="2015-09-19T12:18:31Z">
+        <test-method status="PASS" signature="doSearchAutoSuggestIndex()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="doSearchAutoSuggestIndex" duration-ms="22332" started-at="2015-09-21T22:18:14Z" finished-at="2015-09-21T22:18:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSearchAutoSuggestIndex -->
-        <test-method status="PASS" signature="openWikipediaEn()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="openWikipediaEn" duration-ms="11243" started-at="2015-09-19T12:18:31Z" finished-at="2015-09-19T12:18:42Z">
+        <test-method status="PASS" signature="openWikipediaEn()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="openWikipediaEn" duration-ms="12391" started-at="2015-09-21T22:18:36Z" finished-at="2015-09-21T22:18:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWikipediaEn -->
-        <test-method status="PASS" signature="openWikipediaEs()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="openWikipediaEs" duration-ms="16440" started-at="2015-09-19T12:18:42Z" finished-at="2015-09-19T12:18:58Z">
+        <test-method status="PASS" signature="openWikipediaEs()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="openWikipediaEs" duration-ms="14141" started-at="2015-09-21T22:18:48Z" finished-at="2015-09-21T22:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWikipediaEs -->
-        <test-method status="PASS" signature="searchMainWikiPage()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="searchMainWikiPage" duration-ms="25134" started-at="2015-09-19T12:18:58Z" finished-at="2015-09-19T12:19:24Z">
+        <test-method status="PASS" signature="searchMainWikiPage()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="searchMainWikiPage" duration-ms="25263" started-at="2015-09-21T22:19:03Z" finished-at="2015-09-21T22:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchMainWikiPage -->
-        <test-method status="PASS" signature="searchWikipediaEN()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="searchWikipediaEN" duration-ms="69862" started-at="2015-09-19T12:19:24Z" finished-at="2015-09-19T12:20:33Z">
+        <test-method status="PASS" signature="searchWikipediaEN()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="searchWikipediaEN" duration-ms="70367" started-at="2015-09-21T22:19:28Z" finished-at="2015-09-21T22:20:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWikipediaEN -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="afterTest" is-config="true" duration-ms="2656" started-at="2015-09-19T12:20:33Z" finished-at="2015-09-19T12:20:36Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia@43840]" name="afterTest" is-config="true" duration-ms="2703" started-at="2015-09-21T22:20:38Z" finished-at="2015-09-21T22:20:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.NavigateWikipedia -->
     </test> <!-- NavigateWikipediaTest -->
-    <test name="WordsTest" duration-ms="220266" started-at="2015-09-19T17:20:36Z" finished-at="2015-09-19T17:24:17Z">
+    <test name="WordsTest" duration-ms="214817" started-at="2015-09-22T03:20:41Z" finished-at="2015-09-22T03:24:16Z">
       <class name="com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile@f8360d]" name="beforeTest" is-config="true" duration-ms="23740" started-at="2015-09-19T12:20:36Z" finished-at="2015-09-19T12:21:00Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile@f8360d]" name="beforeTest" is-config="true" duration-ms="38858" started-at="2015-09-21T22:20:41Z" finished-at="2015-09-21T22:21:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getWordsFromTXT()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile@f8360d]" name="getWordsFromTXT" duration-ms="194245" started-at="2015-09-19T12:21:00Z" finished-at="2015-09-19T12:24:14Z">
+        <test-method status="PASS" signature="getWordsFromTXT()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile@f8360d]" name="getWordsFromTXT" duration-ms="174176" started-at="2015-09-21T22:21:20Z" finished-at="2015-09-21T22:24:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWordsFromTXT -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile@f8360d]" name="afterTest" is-config="true" duration-ms="2280" started-at="2015-09-19T12:24:14Z" finished-at="2015-09-19T12:24:17Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile@f8360d]" name="afterTest" is-config="true" duration-ms="1780" started-at="2015-09-21T22:24:14Z" finished-at="2015-09-21T22:24:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.WordsFile -->
     </test> <!-- WordsTest -->
-    <test name="MainWikipediaTest" duration-ms="80112" started-at="2015-09-19T17:24:17Z" finished-at="2015-09-19T17:25:37Z">
+    <test name="MainWikipediaTest" duration-ms="127155" started-at="2015-09-22T03:24:16Z" finished-at="2015-09-22T03:26:23Z">
       <class name="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="beforeTest" is-config="true" duration-ms="16449" started-at="2015-09-19T12:24:17Z" finished-at="2015-09-19T12:24:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="beforeTest" is-config="true" duration-ms="17067" started-at="2015-09-21T22:24:16Z" finished-at="2015-09-21T22:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="openMainWikiDE()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="openMainWikiDE" duration-ms="18182" started-at="2015-09-19T12:24:33Z" finished-at="2015-09-19T12:24:51Z">
+        <test-method status="PASS" signature="openMainWikiDE()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="openMainWikiDE" duration-ms="35585" started-at="2015-09-21T22:24:33Z" finished-at="2015-09-21T22:25:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMainWikiDE -->
-        <test-method status="PASS" signature="openMainWikiEN()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="openMainWikiEN" duration-ms="20615" started-at="2015-09-19T12:24:51Z" finished-at="2015-09-19T12:25:12Z">
+        <test-method status="PASS" signature="openMainWikiEN()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="openMainWikiEN" duration-ms="38943" started-at="2015-09-21T22:25:08Z" finished-at="2015-09-21T22:25:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMainWikiEN -->
-        <test-method status="PASS" signature="openMainWikiES()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="openMainWikiES" duration-ms="23268" started-at="2015-09-19T12:25:12Z" finished-at="2015-09-19T12:25:35Z">
+        <test-method status="PASS" signature="openMainWikiES()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="openMainWikiES" duration-ms="34297" started-at="2015-09-21T22:25:47Z" finished-at="2015-09-21T22:26:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMainWikiES -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="afterTest" is-config="true" duration-ms="1596" started-at="2015-09-19T12:25:35Z" finished-at="2015-09-19T12:25:37Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@13f5a29]" name="afterTest" is-config="true" duration-ms="1257" started-at="2015-09-21T22:26:22Z" finished-at="2015-09-21T22:26:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia -->
     </test> <!-- MainWikipediaTest -->
+    <test name="SearchWikipediaTest" duration-ms="53434" started-at="2015-09-22T03:26:23Z" finished-at="2015-09-22T03:27:16Z">
+      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia@1a485d2]" name="beforeTest" is-config="true" duration-ms="16851" started-at="2015-09-21T22:26:23Z" finished-at="2015-09-21T22:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchWikipediaES()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia@1a485d2]" name="searchWikipediaES" duration-ms="35576" started-at="2015-09-21T22:26:40Z" finished-at="2015-09-21T22:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWikipediaES -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia@1a485d2]" name="afterTest" is-config="true" duration-ms="1005" started-at="2015-09-21T22:27:15Z" finished-at="2015-09-21T22:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.SearchWikipedia -->
+    </test> <!-- SearchWikipediaTest -->
   </suite> <!-- NavigateWikipediaSuite -->
 </testng-results>

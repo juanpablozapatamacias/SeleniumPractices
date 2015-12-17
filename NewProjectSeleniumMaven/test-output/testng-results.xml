@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47725" started-at="2015-09-19T17:03:31Z" finished-at="2015-09-19T17:04:19Z">
+  <suite name="Default suite" duration-ms="66088" started-at="2015-12-17T06:04:16Z" finished-at="2015-12-17T06:05:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47725" started-at="2015-09-19T17:03:31Z" finished-at="2015-09-19T17:04:19Z">
-      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@1417077]" name="beforeTest" is-config="true" duration-ms="21641" started-at="2015-09-19T12:03:31Z" finished-at="2015-09-19T12:03:53Z">
+    <test name="Default test" duration-ms="66088" started-at="2015-12-17T06:04:16Z" finished-at="2015-12-17T06:05:22Z">
+      <class name="com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo@1f4f00f]" name="beforeTest" is-config="true" duration-ms="33535" started-at="2015-12-17T00:04:16Z" finished-at="2015-12-17T00:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="openMainWikiEN()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@1417077]" name="openMainWikiEN" duration-ms="24040" started-at="2015-09-19T12:03:53Z" finished-at="2015-09-19T12:04:17Z">
+        <test-method status="PASS" signature="autheticate()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo@1f4f00f]" name="autheticate" duration-ms="27531" started-at="2015-12-17T00:04:50Z" finished-at="2015-12-17T00:05:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openMainWikiEN -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia@1417077]" name="afterTest" is-config="true" duration-ms="1974" started-at="2015-09-19T12:04:17Z" finished-at="2015-09-19T12:04:19Z">
+        </test-method> <!-- autheticate -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo@1f4f00f]" name="afterTest" is-config="true" duration-ms="4716" started-at="2015-12-17T00:05:17Z" finished-at="2015-12-17T00:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.MainWikipedia -->
+      </class> <!-- com.jpablo.selenium.NewProjectSeleniumMaven.CorreoDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
